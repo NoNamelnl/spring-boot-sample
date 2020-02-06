@@ -29,7 +29,7 @@ public class UserDetailServiceImplTest {
 
     @Test
     public void findByCondition() {
-        int page = 0, size =10;
+        int page = 0, size = 10;
         Sort sort = new Sort(Sort.Direction.DESC, "id");
         Pageable pageable = PageRequest.of(page, size, sort);
         UserDetailParam userDetailParam = new UserDetailParam();

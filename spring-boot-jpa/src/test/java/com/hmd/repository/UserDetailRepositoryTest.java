@@ -27,7 +27,7 @@ public class UserDetailRepositoryTest {
 
     @Test
     @Transactional
-    public void save(){
+    public void save() {
         List<UserDetail> list = new ArrayList<>();
         list.add(new UserDetail(1L, 33, "Tony Stark", "", "Research", "Iron Man", null));
         list.add(new UserDetail(3L, 100, "Steve Rogers", "", "Fitness", "Captain America", null));

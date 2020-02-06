@@ -25,7 +25,7 @@ public class SchedulerTask {
      */
     // @Scheduled(cron = "*/5 * * * * ?")// cron表达式
     @Scheduled(fixedRate = 5000)
-    public void count(){
+    public void count() {
         System.out.println("time-->" + new Date() + ", count-->" + count.incrementAndGet());
     }
 }

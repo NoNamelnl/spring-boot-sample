@@ -25,7 +25,7 @@ public class UserController {
     }
 
     @RequestMapping("/uuid")
-    public String getUuid(HttpSession session){
+    public String getUuid(HttpSession session) {
         UUID uuid = (UUID) session.getAttribute("uuid");
         if (uuid == null) {
             uuid = UUID.randomUUID();

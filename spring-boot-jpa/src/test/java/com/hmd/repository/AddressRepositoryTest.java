@@ -25,7 +25,7 @@ public class AddressRepositoryTest {
     private AddressRepository addressRepository;
 
     @Test
-    public void save(){
+    public void save() {
         List<Address> list = new ArrayList<>();
         list.add(new Address(1L, "上海市", "黄埔区", "南京东路"));
         list.add(new Address(2L, "上海市", "浦东新区", "祖冲之路"));
